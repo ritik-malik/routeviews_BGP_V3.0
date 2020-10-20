@@ -59,13 +59,20 @@ The flow of the pipeline is based on the specifications of the server provided -
 
 * Script to download data for a month from routeviews
 
-# Inferences
-* Each of the script can be run separately for each step & has comments for refrence to CLI args to be given.<br>
-  The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 hours (to be improved)
-* The results folder contains graphs for various timestamps used
-* `EXTRA` folder contains the graphs of the prefixes that have been stopped/started their advertisement
 
-#### Output from pipeline
+<b>Each of the script can be run separately for each step & has comments for refrence to CLI args to be given.</b><br>
+The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 hours (to be improved)
+
+# Inferences
+* The results folder contains the pipeline output for 3 timestamps used as of now
+* `EXTRA` folder contains the graphs of the prefixes that have been stopped/started their advertisement
+* `GRAPHS` folder contains :
+
+* CSV files with all the prefixes & their frequency in the DB
+* Graphs, with each ISP having its own individual dir
+
+
+#### Some stats
 
 | DATASET       | EXTRA        | GRAPHS  |
 | ------------- |:------------:| -------:|
