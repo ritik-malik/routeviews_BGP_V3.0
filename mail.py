@@ -1,9 +1,9 @@
 import smtplib, ssl, sys
 
 message = sys.argv[1]
-EMAIL = "t.wellick404@gmail.com"
-PASSWD = "konhaituBC$69"
-RECEIVER = "ritikmaalik2000@gmail.com"
+EMAIL = "sender email"
+PASSWD = "passwd here"
+RECEIVER = "receiver email"
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
