@@ -65,10 +65,13 @@ The flow of the pipeline is based on the specifications of the server provided -
 * The results folder contains graphs for various timestamps used
 * `EXTRA` folder contains the graphs of the prefixes that have been stopped/started their advertisement
 
-#### Final
-* 201911 : 
-* 201912 : 268 graphs with more than 50% drop
-* 202006 : 352 graphs with more than 50% drop
+#### Output from pipeline
+
+| DATASET       | EXTRA        | GRAPHS  |
+| ------------- |:------------:| -------:|
+| 201911        | 277          | 482     |
+| 201912        | 173          | 268     |
+| 202006        | 122          | 352     |
 
 
 
