@@ -1,0 +1,835 @@
+<<<-------This is the log file maintained by the program-------->>>
+
+Current value choosen by user
+DATE  : 202006
+TIME1 : 0600
+TIME2 : 1000
+TIME3 : 1600
+TIME4 : 2000
+FILES : ACTFIBERNET_AS131269 AIRTEL-BHARTI_AS9498 AIRTEL-GPRS_AS45609 AIRTEL-TELE_AS24560 BSNL_AS9829 HATHWAY_AS17488 IDEA_AS45271 JIO_AS55836 MTNL_AS17813 R-COM_AS18101 SIFY_AS9583 TATA_AS4755 TATA-TELE_AS45820 T-COM-2_AS10199 T-COM_AS17908 VODAFONE_AS38266 VODA-IDEA_AS55410 YOU-BROAD_AS18207
+LIMIT : 50
+Now calling master.sh for main task...
+
+Iteration number #1 out of 20
+__________________________________
+
+Downloading data for 20200601.0600
+Downloading data for 20200601.1000
+Downloading data for 20200601.1600
+Downloading data for 20200601.2000
+
+Downloading data for 20200602.0600
+Downloading data for 20200602.1000
+Downloading data for 20200602.1600
+Downloading data for 20200602.2000
+
+Downloading data for 20200603.0600
+Downloading data for 20200603.1000
+Downloading data for 20200603.1600
+Downloading data for 20200603.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #2 out of 20
+__________________________________
+
+
+House keeping in 20200601
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200601 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200602
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200602 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200603
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200603 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #3 out of 20
+__________________________________
+
+Downloading data for 20200604.0600
+Downloading data for 20200604.1000
+Downloading data for 20200604.1600
+Downloading data for 20200604.2000
+
+Downloading data for 20200605.0600
+Downloading data for 20200605.1000
+Downloading data for 20200605.1600
+Downloading data for 20200605.2000
+
+Downloading data for 20200606.0600
+Downloading data for 20200606.1000
+Downloading data for 20200606.1600
+Downloading data for 20200606.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #4 out of 20
+__________________________________
+
+
+House keeping in 20200604
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200604 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200605
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200605 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200606
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200606 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #5 out of 20
+__________________________________
+
+Downloading data for 20200607.0600
+Downloading data for 20200607.1000
+Downloading data for 20200607.1600
+Downloading data for 20200607.2000
+
+Downloading data for 20200608.0600
+Downloading data for 20200608.1000
+Downloading data for 20200608.1600
+Downloading data for 20200608.2000
+
+Downloading data for 20200609.0600
+Downloading data for 20200609.1000
+Downloading data for 20200609.1600
+Downloading data for 20200609.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #6 out of 20
+__________________________________
+
+
+House keeping in 20200607
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200607 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200608
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200608 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200609
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200609 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #7 out of 20
+__________________________________
+
+Downloading data for 20200610.0600
+Downloading data for 20200610.1000
+Downloading data for 20200610.1600
+Downloading data for 20200610.2000
+
+Downloading data for 20200611.0600
+Downloading data for 20200611.1000
+Downloading data for 20200611.1600
+Downloading data for 20200611.2000
+
+Downloading data for 20200612.0600
+Downloading data for 20200612.1000
+Downloading data for 20200612.1600
+Downloading data for 20200612.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #8 out of 20
+__________________________________
+
+
+House keeping in 20200610
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200610 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200611
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200611 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200612
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200612 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #9 out of 20
+__________________________________
+
+Downloading data for 20200613.0600
+Downloading data for 20200613.1000
+Downloading data for 20200613.1600
+Downloading data for 20200613.2000
+
+Downloading data for 20200614.0600
+Downloading data for 20200614.1000
+Downloading data for 20200614.1600
+Downloading data for 20200614.2000
+
+Downloading data for 20200615.0600
+Downloading data for 20200615.1000
+Downloading data for 20200615.1600
+Downloading data for 20200615.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #10 out of 20
+__________________________________
+
+
+House keeping in 20200613
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200613 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200614
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200614 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200615
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200615 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #11 out of 20
+__________________________________
+
+Downloading data for 20200616.0600
+Downloading data for 20200616.1000
+Downloading data for 20200616.1600
+Downloading data for 20200616.2000
+
+Downloading data for 20200617.0600
+Downloading data for 20200617.1000
+Downloading data for 20200617.1600
+Downloading data for 20200617.2000
+
+Downloading data for 20200618.0600
+Downloading data for 20200618.1000
+Downloading data for 20200618.1600
+Downloading data for 20200618.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #12 out of 20
+__________________________________
+
+
+House keeping in 20200616
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200616 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200617
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200617 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200618
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200618 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #13 out of 20
+__________________________________
+
+Downloading data for 20200619.0600
+Downloading data for 20200619.1000
+Downloading data for 20200619.1600
+Downloading data for 20200619.2000
+
+Downloading data for 20200620.0600
+Downloading data for 20200620.1000
+Downloading data for 20200620.1600
+Downloading data for 20200620.2000
+
+Downloading data for 20200621.0600
+Downloading data for 20200621.1000
+Downloading data for 20200621.1600
+Downloading data for 20200621.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #14 out of 20
+__________________________________
+
+
+House keeping in 20200619
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200619 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200620
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200620 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200621
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200621 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #15 out of 20
+__________________________________
+
+Downloading data for 20200622.0600
+Downloading data for 20200622.1000
+Downloading data for 20200622.1600
+Downloading data for 20200622.2000
+
+Downloading data for 20200623.0600
+Downloading data for 20200623.1000
+Downloading data for 20200623.1600
+Downloading data for 20200623.2000
+
+Downloading data for 20200624.0600
+Downloading data for 20200624.1000
+Downloading data for 20200624.1600
+Downloading data for 20200624.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #16 out of 20
+__________________________________
+
+
+House keeping in 20200622
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200622 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200623
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200623 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200624
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200624 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #17 out of 20
+__________________________________
+
+Downloading data for 20200625.0600
+Downloading data for 20200625.1000
+Downloading data for 20200625.1600
+Downloading data for 20200625.2000
+
+Downloading data for 20200626.0600
+Downloading data for 20200626.1000
+Downloading data for 20200626.1600
+Downloading data for 20200626.2000
+
+Downloading data for 20200627.0600
+Downloading data for 20200627.1000
+Downloading data for 20200627.1600
+Downloading data for 20200627.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #18 out of 20
+__________________________________
+
+
+House keeping in 20200625
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200625 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200626
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200626 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200627
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200627 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+
+Iteration number #19 out of 20
+__________________________________
+
+Downloading data for 20200628.0600
+Downloading data for 20200628.1000
+Downloading data for 20200628.1600
+Downloading data for 20200628.2000
+
+Downloading data for 20200629.0600
+Downloading data for 20200629.1000
+Downloading data for 20200629.1600
+Downloading data for 20200629.2000
+
+Downloading data for 20200630.0600
+Downloading data for 20200630.1000
+Downloading data for 20200630.1600
+Downloading data for 20200630.2000
+
+Done downloading data for 3 days simultaneously...
+Done!
+
+Iteration number #20 out of 20
+__________________________________
+
+
+House keeping in 20200628
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200628 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200629
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200629 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+
+House keeping in 20200630
+1. Deleting routeviews.py
+2. Deleting empty files
+3. Trimming dumps
+4. Replacing whitespace with comma
+5. Inserting CSV header
+
+House keeping done successfully
+Now importing data for 20200630 in mongoDB, 4 collections at a time...
+Imported data successfully!
+Deleting redundant data...
+Process completed for 3 directories, moving to next...
+Deleting empty folders...
+
+COMPLETED PHASE 1 successfully!
+Sending an email
+Making index for 20200601.0600
+Making index for 20200601.1000
+Making index for 20200601.1600
+Making index for 20200601.2000
+Making index for 20200602.0600
+Making index for 20200602.1000
+Making index for 20200602.1600
+Making index for 20200602.2000
+Making index for 20200603.0600
+Making index for 20200603.1000
+Making index for 20200603.1600
+Making index for 20200603.2000
+Making index for 20200604.0600
+Making index for 20200604.1000
+Making index for 20200604.1600
+Making index for 20200604.2000
+Making index for 20200605.0600
+Making index for 20200605.1000
+Making index for 20200605.1600
+Making index for 20200605.2000
+Making index for 20200606.0600
+Making index for 20200606.1000
+Making index for 20200606.1600
+Making index for 20200606.2000
+Making index for 20200607.0600
+Making index for 20200607.1000
+Making index for 20200607.1600
+Making index for 20200607.2000
+Making index for 20200608.0600
+Making index for 20200608.1000
+Making index for 20200608.1600
+Making index for 20200608.2000
+Making index for 20200609.0600
+Making index for 20200609.1000
+Making index for 20200609.1600
+Making index for 20200609.2000
+Making index for 20200610.0600
+Making index for 20200610.1000
+Making index for 20200610.1600
+Making index for 20200610.2000
+Making index for 20200611.0600
+Making index for 20200611.1000
+Making index for 20200611.1600
+Making index for 20200611.2000
+Making index for 20200612.0600
+Making index for 20200612.1000
+Making index for 20200612.1600
+Making index for 20200612.2000
+Making index for 20200613.0600
+Making index for 20200613.1000
+Making index for 20200613.1600
+Making index for 20200613.2000
+Making index for 20200614.0600
+Making index for 20200614.1000
+Making index for 20200614.1600
+Making index for 20200614.2000
+Making index for 20200615.0600
+Making index for 20200615.1000
+Making index for 20200615.1600
+Making index for 20200615.2000
+Making index for 20200616.0600
+Making index for 20200616.1000
+Making index for 20200616.1600
+Making index for 20200616.2000
+Making index for 20200617.0600
+Making index for 20200617.1000
+Making index for 20200617.1600
+Making index for 20200617.2000
+Making index for 20200618.0600
+Making index for 20200618.1000
+Making index for 20200618.1600
+Making index for 20200618.2000
+Making index for 20200619.0600
+Making index for 20200619.1000
+Making index for 20200619.1600
+Making index for 20200619.2000
+Making index for 20200620.0600
+Making index for 20200620.1000
+Making index for 20200620.1600
+Making index for 20200620.2000
+Making index for 20200621.0600
+Making index for 20200621.1000
+Making index for 20200621.1600
+Making index for 20200621.2000
+Making index for 20200622.0600
+Making index for 20200622.1000
+Making index for 20200622.1600
+Making index for 20200622.2000
+Making index for 20200623.0600
+Making index for 20200623.1000
+Making index for 20200623.1600
+Making index for 20200623.2000
+Making index for 20200624.0600
+Making index for 20200624.1000
+Making index for 20200624.1600
+Making index for 20200624.2000
+Making index for 20200625.0600
+Making index for 20200625.1000
+Making index for 20200625.1600
+Making index for 20200625.2000
+Making index for 20200626.0600
+Making index for 20200626.1000
+Making index for 20200626.1600
+Making index for 20200626.2000
+Making index for 20200627.0600
+Making index for 20200627.1000
+Making index for 20200627.1600
+Making index for 20200627.2000
+Making index for 20200628.0600
+Making index for 20200628.1000
+Making index for 20200628.1600
+Making index for 20200628.2000
+Making index for 20200629.0600
+Making index for 20200629.1000
+Making index for 20200629.1600
+Making index for 20200629.2000
+Making index for 20200630.0600
+Making index for 20200630.1000
+Making index for 20200630.1600
+Making index for 20200630.2000
+Done!
+
+COMPLETED PHASE 2 successfully!
+Sending an email
+Making CSV files now...
+Making CSV for ACTFIBERNET_AS131269
+Making CSV for AIRTEL-BHARTI_AS9498
+Making CSV for AIRTEL-GPRS_AS45609
+Making CSV for AIRTEL-TELE_AS24560
+Making CSV for BSNL_AS9829
+Making CSV for HATHWAY_AS17488
+Making CSV for IDEA_AS45271
+Making CSV for JIO_AS55836
+Making CSV for MTNL_AS17813
+Making CSV for R-COM_AS18101
+Making CSV for SIFY_AS9583
+Making CSV for TATA_AS4755
+Making CSV for TATA-TELE_AS45820
+Making CSV for T-COM-2_AS10199
+Making CSV for T-COM_AS17908
+Making CSV for VODAFONE_AS38266
+Making CSV for VODA-IDEA_AS55410
+Making CSV for YOU-BROAD_AS18207
+Inserting CSV headers...
+DONE!
+
+COMPLETED PHASE 3 successfully!
+Sending an email
+Making graphs now...
+Making graphs from FILE : ACTFIBERNET_AS131269_database.csv
+Making graphs from FILE : AIRTEL-BHARTI_AS9498_database.csv
+Making graphs from FILE : AIRTEL-GPRS_AS45609_database.csv
+Making graphs from FILE : AIRTEL-TELE_AS24560_database.csv
+Making graphs from FILE : BSNL_AS9829_database.csv
+Making graphs from FILE : HATHWAY_AS17488_database.csv
+Making graphs from FILE : IDEA_AS45271_database.csv
+Making graphs from FILE : JIO_AS55836_database.csv
+Making graphs from FILE : MTNL_AS17813_database.csv
+Making graphs from FILE : R-COM_AS18101_database.csv
+Making graphs from FILE : SIFY_AS9583_database.csv
+Making graphs from FILE : TATA_AS4755_database.csv
+Making graphs from FILE : TATA-TELE_AS45820_database.csv
+Making graphs from FILE : T-COM-2_AS10199_database.csv
+Making graphs from FILE : T-COM_AS17908_database.csv
+Making graphs from FILE : VODAFONE_AS38266_database.csv
+Making graphs from FILE : VODA-IDEA_AS55410_database.csv
+Making graphs from FILE : YOU-BROAD_AS18207_database.csv
+DONE!
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
+
+Everything is ready for you!
+
+___________________________________________
+
+Making graphs now...
+Making graphs from FILE : ACTFIBERNET_AS131269_database.csv
+Making graphs from FILE : AIRTEL-BHARTI_AS9498_database.csv
+Making graphs from FILE : AIRTEL-GPRS_AS45609_database.csv
+Making graphs from FILE : AIRTEL-TELE_AS24560_database.csv
+Making graphs from FILE : BSNL_AS9829_database.csv
+Making graphs from FILE : HATHWAY_AS17488_database.csv
+Making graphs from FILE : IDEA_AS45271_database.csv
+Making graphs from FILE : JIO_AS55836_database.csv
+Making graphs from FILE : MTNL_AS17813_database.csv
+Making graphs from FILE : R-COM_AS18101_database.csv
+Making graphs from FILE : SIFY_AS9583_database.csv
+Making graphs from FILE : TATA_AS4755_database.csv
+Making graphs from FILE : TATA-TELE_AS45820_database.csv
+Making graphs from FILE : T-COM-2_AS10199_database.csv
+Making graphs from FILE : T-COM_AS17908_database.csv
+Making graphs from FILE : VODAFONE_AS38266_database.csv
+Making graphs from FILE : VODA-IDEA_AS55410_database.csv
+Making graphs from FILE : YOU-BROAD_AS18207_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
