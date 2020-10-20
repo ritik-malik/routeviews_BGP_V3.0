@@ -67,9 +67,8 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 * The results folder contains the pipeline output for 3 timestamps used as of now
 * `EXTRA` folder contains the graphs of the prefixes that have been stopped/started their advertisement
 * `GRAPHS` folder contains :
-
-* CSV files with all the prefixes & their frequency in the DB
-* Graphs, with each ISP having its own individual dir
+   * CSV files with all the prefixes & their frequency in the DB
+   * Graphs, with each ISP having its own individual dir
 
 
 #### Some stats
