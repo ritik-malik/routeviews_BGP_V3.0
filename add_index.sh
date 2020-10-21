@@ -3,6 +3,7 @@
 ##################### NOTE #########################
 # if you are running this script directly, Syntax ->
 # ./add_index.sh 201912 0600 1000 1600 2000
+# YYYYMM T1 T2 T3 T4
 ####################################################
 
 YYMM=$1
