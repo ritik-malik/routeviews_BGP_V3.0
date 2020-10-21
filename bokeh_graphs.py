@@ -2,6 +2,9 @@ from bokeh.plotting import figure, output_file, save
 import pandas as pd
 import os, sys
 
+# Usually not to be called direclty
+# python 3.7 bokeh_graphs.py ISP_ASN LIMIT
+
 FILE_NAME = sys.argv[1]                 # ISP_ASN_database.csv
 LIMIT = int(sys.argv[2])                # drop LIMIT % for graphs
 
