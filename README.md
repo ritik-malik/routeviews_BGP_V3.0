@@ -1,5 +1,7 @@
 # Bash pipeline for routeviews
-Backup scripts for project, **NOT AN OFFICIAL REPO**
+Backup scripts for project, **NOT AN OFFICIAL REPO**<br>
+**TO-DO : UPDATE THE DOC**
+
 
 ## Overview
 This repo contains backup scripts from the server, used in the internet shutdown project<br>
@@ -64,7 +66,7 @@ The flow of the pipeline is based on the specifications of the server provided -
 The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 hours (to be improved)
 
 # Inferences
-* The results folder contains the pipeline output for 3 timestamps used as of now
+* The results folder contains the pipeline output for 4 timestamps used as of now
 * `EXTRA` folder contains the graphs of the prefixes that have been stopped/started their advertisement
 * `GRAPHS` folder contains :
    * CSV files with all the prefixes & their frequency in the DB
@@ -75,6 +77,7 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 
 | DATASET       | EXTRA        | GRAPHS  |
 | ------------- |:------------:| -------:|
+| 201807        | 296          | 277     |
 | 201911        | 277          | 482     |
 | 201912        | 173          | 268     |
 | 202006        | 122          | 352     |
