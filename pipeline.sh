@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # store everthing in the array, pass it and pop out in next script
+# add new feature, pass the ISP_ASN name
 FILES=()
 
 echo "======================================="
