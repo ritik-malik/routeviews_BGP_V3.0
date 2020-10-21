@@ -23,7 +23,6 @@ def get_data(x, URL, mirrors):
         except:
             print("\nFileNotFound....\n")
 
-
 URL = 'http://archive.routeviews.org/route-views.'
 mirrors = ['chicago','chile','eqix','flix','gorex','isc','kixp','jinx','linx','napafrica','nwax','phoix',
            'telxatl','wide','sydney','saopaulo','sg','perth','sfmix','soxrs','mwix','rio','fortaleza','gixa']
