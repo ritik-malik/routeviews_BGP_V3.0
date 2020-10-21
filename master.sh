@@ -226,7 +226,7 @@ Data is downloaded & imported to mongoDB!"
 ##########################################################
 
 # script to search mongo & make CSV
-
+# pass ISP_ASN name here
 /bin/bash mongo_CSV.sh "${FILES[@]}"
 
 ##########################################################
