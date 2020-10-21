@@ -5,6 +5,7 @@
 # if you are running this script directly, Syntax ->
 # ./make_graphs.sh LIMIT
 # where LIMIT is max() - min() freq condition for the graphs to be made
+# make sure you are in the dir with *_database.csv files
 
 ####################################################
 
