@@ -1,4 +1,5 @@
 #!/bin/bash
+# receive ISP_ASN name in next update
 
 # download data for a month from routeviews
 # server has 40 v-CPUs, so run 3 instances at a time
