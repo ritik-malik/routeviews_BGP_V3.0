@@ -8,13 +8,14 @@
 
 FILES=("$@")
 
-YYMM_0=${FILES[-7]}              # YY & MM for folder names (less than 10)
-YYMM=${FILES[-6]}                 # YY & MM for folder names (greater than 10)
-TIME_1=${FILES[-5]}                 # timestamp 1
-TIME_2=${FILES[-4]}                 # timestamp 2
-TIME_3=${FILES[-3]}                 # timestamp 3
-TIME_4=${FILES[-2]}                 # timestamp 4
-LIMIT=${FILES[-1]}                  # limit for graphs
+YYMM_0=${FILES[-8]}              # YY & MM for folder names (less than 10)
+YYMM=${FILES[-7]}                 # YY & MM for folder names (greater than 10)
+TIME_1=${FILES[-6]}                 # timestamp 1
+TIME_2=${FILES[-5]}                 # timestamp 2
+TIME_3=${FILES[-4]}                 # timestamp 3
+TIME_4=${FILES[-3]}                 # timestamp 4
+LIMIT=${FILES[-2]}                  # limit for graphs
+ISP_ASN=${FILES[-1]}                # folder name for ISPs
 
 #######################################
 

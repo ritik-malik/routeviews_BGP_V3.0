@@ -24,21 +24,31 @@ for i in range(len(data)):
         x.append(str(data.DATE[i])+'.'+str(data.TIME[i]))
         y.append(data.FREQ[i])
     
-    else:
-        
+    else:       # if 1 prefix is completed for entire month -> 0,0,0,0,0 occurs
+       
         yy=[]
         for freq in range(len(y)):
-            yy.append(round((y[freq]/max(y))*100,2))
+            yy.append(round((y[freq]/max(y))*100,2))    # take % istead of absolute values
         
         # print('Len of x = ',len(x))
         # print('Len of y = ',len(y))
         # print('Len of yy = ',len(yy))
         
         # print(yy)
-        
-        print('Max - Min = ',round(max(yy)-min(yy),2))
-        
-        if round(max(yy) - min(yy),2) > LIMIT:
+        # print('Max - Min = ',round(max(yy)-min(yy),2))
+
+        with open("diff.txt",'a') as diff:      # save the max - min to a diff file
+            temp = round(max(yy)-min(yy),2)
+            text = ISP+','+AS+','+data.PREFIX[i-1]+','+temp
+            diff.write(text)
+
+
+        if round(max(yy) - min(yy),2) > LIMIT:      # makes graphs if > LIMIT, else reset
+            
+            # count number of changes states
+            # Count if the prefixes jumps half the lenght from max to min/ min to max 
+            # If only 1 times, we assume that the prefix has (either) started to (or) stopped advertisement
+            # tag these graphs as extra & make a new folder
             
             flag=0
             temp = yy[0]
@@ -62,7 +72,7 @@ for i in range(len(data)):
             p.line(x,yy)
             p.circle(x,yy)
 
-            print('Making graph',name)
+            print('Making graph for',name)
             save(p)
             
 

@@ -1,12 +1,14 @@
 #!/bin/bash
 
-### CHANGE THE SYNTAX IN NEW UPDATE, TAKE ONLY FOLDER NAME
-### ALSO CHANGE >> logs.txt to >> ../logs.txt
+### CHANGE THE SYNTAX IN NEW UPDATE, TAKE ONLY FOLDER NAME`# DONE
 
 ################################# NOTE #####################################
 
 # if you are running this file directly, Syntax ->
-# ./mongo_CSV.sh ISP_ASN1 ISP_ASN2 ISP_ASN3... X 201912 0600 1000 1600 2000 Y
+# ./mongo_CSV.sh YYYYMM T1 T2 T3 T4 ISP_ASN
+
+# old method ->
+# ./mongo_CSV.sh ISP_ASN1 ISP_ASN2 ISP_ASN3... X 201912 0600 1000 1600 2000 Y 
 # where X, Y are some arbitary value
 
 ############################# GLOBAL VARS ##################################
@@ -18,19 +20,24 @@ TIME_1=${FILES[-5]}                 # timestamp 1
 TIME_2=${FILES[-4]}                 # timestamp 2
 TIME_3=${FILES[-3]}                 # timestamp 3
 TIME_4=${FILES[-2]}                 # timestamp 4
+ISP_ASN=${FILES[-1]}                # folder name for ISP_ASN
 
-for i in {1..7}; do unset FILES[-1]; done   # now array only has file names
+# old method, not needed now ->
+# for i in {1..7}; do unset FILES[-1]; done   # now array only has file names
 
 #############################################################################
 
 echo "Making CSV files now..." >> logs.txt
 YYYYMM=${YYMM}01
 
-for F in ${FILES[@]}
+for F in $(ls ${ISP_ASN})
+# for F in ${FILES[@]}  # old
 do
 
   (ASN=$(echo $F | cut -d "_" -f 2)
-  for prefix in $(cat ${F})
+
+  for prefix in $(cat ${ISP_ASN}/${F})
+  # for prefix in $(cat ${F})   # old
   do
     for i in {1..30}
     do

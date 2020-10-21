@@ -12,7 +12,7 @@ TIME_2=$3
 TIME_3=$4
 TIME_4=$5
 
-wait_buffer=()
+wait_buffer=()      # buffer to store PID, run them //ly
 YYYYMM=${YYMM}01
 
 for i in {1..30}
