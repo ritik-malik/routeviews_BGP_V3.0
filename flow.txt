@@ -1,6 +1,7 @@
+TODO :
 # segregate graphs with new formula, store redundant graphs in new dir
 # make graphs for low level ISPs
-
+# Add new RESULTS DIR
 
 
 # Old Method :  -> Download Data
