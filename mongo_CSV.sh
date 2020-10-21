@@ -1,5 +1,8 @@
 #!/bin/bash
 
+### CHANGE THE SYNTAX IN NEW UPDATE, TAKE ONLY FOLDER NAME
+### ALSO CHANGE >> logs.txt to >> ../logs.txt
+
 ################################# NOTE #####################################
 
 # if you are running this file directly, Syntax ->
