@@ -61,7 +61,8 @@ Loop over 30 days:
 
 for dropping dbs -> for i in {01..30}; do mongo 201911$i --eval "db.dropDatabase()"; done
 
-
+for counting files -> find 202008/GRAPHS/ -type f | wc -l
+                   -> find 202008/EXTRA/ -type f | wc -l
 
 
 
