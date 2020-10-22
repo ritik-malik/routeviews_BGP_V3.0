@@ -81,6 +81,8 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 | 201911        | 277          | 482     |
 | 201912        | 173          | 268     |
 | 202006        | 122          | 352     |
+| 202008        | 287          | 239     |
+
 
 
 
