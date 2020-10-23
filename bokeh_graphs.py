@@ -35,12 +35,12 @@ for i in range(len(data)):
         # print('Len of yy = ',len(yy))
         
         # print(yy)
-        # print('Max - Min = ',round(max(yy)-min(yy),2))
+        print('Max - Min = ',round(max(yy)-min(yy),2))
 
-        with open("diff.txt",'a') as diff:      # save the max - min to a diff file
-            temp = round(max(yy)-min(yy),2)
-            text = ISP+','+AS+','+data.PREFIX[i-1]+','+temp
-            diff.write(text)
+        #with open("diff.txt",'a') as diff:      # save the max - min to a diff file
+        #    temp = round(max(yy)-min(yy),2)
+        #    text = ISP+','+AS+','+data.PREFIX[i-1]+','+str(temp)
+        #    diff.write(text)
 
 
         if round(max(yy) - min(yy),2) > LIMIT:      # makes graphs if > LIMIT, else reset

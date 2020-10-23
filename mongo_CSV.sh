@@ -61,7 +61,11 @@ for PID in "${wait_buffer[@]}"; do wait ${PID}; done
 wait_buffer=()
 
 echo "Inserting CSV headers..." >> logs.txt
-for F in ${FILES[@]}; do sed  -i '1i DATE,TIME,ASN,PREFIX,FREQ' ${F}_database.csv; done   # add CSV header
+
+
+for F in $(ls | grep _database.csv); do sed  -i '1i DATE,TIME,ASN,PREFIX,FREQ' ${F}; done
+# old method
+# for F in ${FILES[@]}; do sed  -i '1i DATE,TIME,ASN,PREFIX,FREQ' ${F}_database.csv; done   # add CSV header
 
 echo "DONE!" >> logs.txt
 
