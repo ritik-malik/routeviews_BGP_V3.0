@@ -84,6 +84,11 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 | 202008        | 287          | 239     |
 | 202008(PTD)   | 3            | 8       |
 
+### Cumulative Graphs
+2 types of new graphs in Results/Cumulative -
+1. Club together all the prefixes of a particuclar AS & plot x (dates) vs y (freq) graph, where y is the number of times that the prefixes of that particular AS hits the bottom in it's advertisement for a particular day x.
+2. Combine all the graphs generated above to make a final graph, which shows x (dates) vs y (freq) for all prefixes of all ASe together
+**Not a very fruitful method, adopt new approach to test Geolocation from prevoius dips**
 
 
 
