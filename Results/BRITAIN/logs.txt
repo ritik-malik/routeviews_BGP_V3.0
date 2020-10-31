@@ -1,0 +1,80 @@
+Making CSV files now...
+Making CSV for BRIT-TELE_AS2856
+Making CSV for EASYNET_AS4589
+Making CSV for EE-LTD_AS12576
+Making CSV for JISC_AS786
+Making CSV for PLUSNET_AS6871
+Making CSV for SKY-UK_AS5607
+Making CSV for TT-COM-2_AS9105
+Making CSV for TT-COM_AS13285
+Making CSV for VIRGIN_AS5089
+Making CSV for VODAFONE_AS5378
+Inserting CSV headers...
+DONE!
+
+COMPLETED PHASE 3 successfully!
+Sending an email
+Making graphs now...
+Making graphs from FILE : BRIT-TELE_AS2856_database.csv
+Making graphs from FILE : EASYNET_AS4589_database.csv
+Making graphs from FILE : EE-LTD_AS12576_database.csv
+Making graphs from FILE : JISC_AS786_database.csv
+Making graphs from FILE : PLUSNET_AS6871_database.csv
+Making graphs from FILE : SKY-UK_AS5607_database.csv
+Making graphs from FILE : TT-COM-2_AS9105_database.csv
+Making graphs from FILE : TT-COM_AS13285_database.csv
+Making graphs from FILE : VIRGIN_AS5089_database.csv
+Making graphs from FILE : VODAFONE_AS5378_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
+Making graphs now...
+Making graphs from FILE : BRIT-TELE_AS2856_database.csv
+Making graphs from FILE : EASYNET_AS4589_database.csv
+Making graphs from FILE : EE-LTD_AS12576_database.csv
+Making graphs from FILE : JISC_AS786_database.csv
+Making graphs from FILE : PLUSNET_AS6871_database.csv
+Making graphs from FILE : SKY-UK_AS5607_database.csv
+Making graphs from FILE : TT-COM-2_AS9105_database.csv
+Making graphs from FILE : TT-COM_AS13285_database.csv
+Making graphs from FILE : VIRGIN_AS5089_database.csv
+Making graphs from FILE : VODAFONE_AS5378_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
+Making graphs now...
+Making graphs from FILE : BRIT-TELE_AS2856_database.csv
+Making graphs from FILE : EASYNET_AS4589_database.csv
+Making graphs from FILE : EE-LTD_AS12576_database.csv
+Making graphs from FILE : JISC_AS786_database.csv
+Making graphs from FILE : PLUSNET_AS6871_database.csv
+Making graphs from FILE : SKY-UK_AS5607_database.csv
+Making graphs from FILE : TT-COM-2_AS9105_database.csv
+Making graphs from FILE : TT-COM_AS13285_database.csv
+Making graphs from FILE : VIRGIN_AS5089_database.csv
+Making graphs from FILE : VODAFONE_AS5378_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
+Making graphs now...
+Making graphs from FILE : BRIT-TELE_AS2856_database.csv
+Making graphs from FILE : EASYNET_AS4589_database.csv
+Making graphs from FILE : EE-LTD_AS12576_database.csv
+Making graphs from FILE : JISC_AS786_database.csv
+Making graphs from FILE : PLUSNET_AS6871_database.csv
+Making graphs from FILE : SKY-UK_AS5607_database.csv
+Making graphs from FILE : TT-COM-2_AS9105_database.csv
+Making graphs from FILE : TT-COM_AS13285_database.csv
+Making graphs from FILE : VIRGIN_AS5089_database.csv
+Making graphs from FILE : VODAFONE_AS5378_database.csv
+DONE!
+Now extracting EXTRA graphs...
+
+COMPLETED FINAL PHASE 4 successfully!
+Sending final email
