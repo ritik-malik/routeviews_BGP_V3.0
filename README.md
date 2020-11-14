@@ -90,9 +90,15 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 2 types of new graphs in Results/Cumulative -
 1. Club together all the prefixes of a particuclar AS & plot x (dates) vs y (freq) graph, where y is the number of times that the prefixes of that particular AS hits the bottom in it's advertisement for a particular day x.
 2. Combine all the graphs generated above to make a final graph, which shows x (dates) vs y (freq) for all prefixes of all ASe together <br>
+
+<br>
+
 **Not a very fruitful method, adopt new approach to test Geolocation from prevoius dips**
 
-
+<br> <br>
+### 2 new ways now -
+1. Purchase MaxmindGeoIP2 API (smells bad)
+2. censys.io dataset access (might turn fruitful)
 
 
 
