@@ -2,8 +2,8 @@
 Backup scripts for project, **NOT AN OFFICIAL REPO**<br>
 **TO-DO : UPDATE THE DOC<br>
 ADD ISPs for BRITAIN (done)<br>
-Checkout censys.io<br>
-Geolocation for dips**
+Checkout censys.io (in progress)<br>
+Geolocation for dips (drop the idea)**
 
 
 ## Overview
@@ -98,10 +98,10 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 
 <br> <br>
 ### 2 new ways now -
-1. Purchase MaxmindGeoIP2 API (smells bad)
-2. censys.io dataset access (might turn fruitful)
+1. Purchase MaxmindGeoIP2 API (smells bad) (Done)
+2. censys.io dataset access (might turn fruitful) (In progress)
 
-
+Link a new repo from here onwards to Censys.io
 
 
 
