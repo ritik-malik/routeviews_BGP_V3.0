@@ -99,7 +99,7 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 <br> <br>
 ### 2 possbile options now -
 1. Purchase MaxmindGeoIP2 API (Done)
-2. censys.io dataset access (In progress)
+2. censys.io dataset access (Done)
 
 Link a new repo from here onwards to Censys.io <br>
 Censys reseach data access granted on GCP <br>
