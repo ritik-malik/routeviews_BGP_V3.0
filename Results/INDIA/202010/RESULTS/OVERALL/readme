@@ -1,0 +1,17 @@
+This dir contains scripts & their results to make overall comparison of number of
+number of dips vs days in month
+
+Usage of scripts -
+* First copy all the CSVs in the cur dir
+* Read the specifications mentioned in `final_graph.py`, but don't run it yet
+* Then run `./make_final.sh` which will loop over all CSVs & pass it to `final_graph.py` for further processing
+* Finally run `end_graph.py YYYYMM_output.csv` to generate the final graph
+
+The baised folder contains results after removing some outlier from `YYYYMM_output.csv`,
+mainly those ISPs that can ruin the disribution & make it very uneven
+
+
+
+
+
+
