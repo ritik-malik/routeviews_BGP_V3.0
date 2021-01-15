@@ -1,9 +1,9 @@
 # Bash pipeline for routeviews
-Backup scripts for project, **NOT AN OFFICIAL REPO**<br>
+Backup scripts for project,<br>
 **TO-DO : UPDATE THE DOC<br>
 ADD ISPs for BRITAIN (done)<br>
 Checkout censys.io (in progress)<br>
-Geolocation for dips (drop the idea)**
+Geolocation for dips (in progress)**
 
 
 ## Overview
@@ -97,12 +97,13 @@ The average overall runtime for the pipeline for 1 iteration is about 1 day & 6 
 **Not a very fruitful method, adopt new approach to test Geolocation from prevoius dips**
 
 <br> <br>
-### 2 new ways now -
-1. Purchase MaxmindGeoIP2 API (smells bad) (Done)
-2. censys.io dataset access (might turn fruitful) (In progress)
+### 2 possbile options now -
+1. Purchase MaxmindGeoIP2 API (Done)
+2. censys.io dataset access (In progress)
 
-Link a new repo from here onwards to Censys.io
-
+Link a new repo from here onwards to Censys.io <br>
+Censys reseach data access granted on GCP <br>
+This repo might not be updated now <br>
 
 
 

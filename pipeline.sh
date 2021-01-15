@@ -18,7 +18,7 @@ read -p "Enter the 4th timestamp : " TIME_4
 echo -e "\nNaming convention for prefix files = ISP_ASN"
 read -p "Enter the folder name : " num
 
-for i in $(ls ${num}); do FILES+=( ${temp} ); done
+for i in $(ls ${num}); do FILES+=( ${i} ); done
 
 read -p "Enter the max() - min() % LIMIT for graphs : " LIMIT
 
