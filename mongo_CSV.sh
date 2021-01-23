@@ -5,7 +5,7 @@
 ################################# NOTE #####################################
 
 # if you are running this file directly, Syntax ->
-# ./mongo_CSV.sh YYYYMM T1 T2 T3 T4 ISP_ASN
+# ./mongo_CSV.sh YYYYMM T1 T2 T3 T4 LIMIT ISP_ASN
 
 # old method ->
 # ./mongo_CSV.sh ISP_ASN1 ISP_ASN2 ISP_ASN3... X 201912 0600 1000 1600 2000 Y 
@@ -15,11 +15,12 @@
 
 FILES=("$@")
 
-YYMM=${FILES[-6]}                 # YY & MM for folder names (greater than 10)
-TIME_1=${FILES[-5]}                 # timestamp 1
-TIME_2=${FILES[-4]}                 # timestamp 2
-TIME_3=${FILES[-3]}                 # timestamp 3
-TIME_4=${FILES[-2]}                 # timestamp 4
+YYMM=${FILES[-7]}                 # YY & MM for folder names (greater than 10)
+TIME_1=${FILES[-6]}                 # timestamp 1
+TIME_2=${FILES[-5]}                 # timestamp 2
+TIME_3=${FILES[-4]}                 # timestamp 3
+TIME_4=${FILES[-3]}                 # timestamp 4
+LIMIT=${FILES[-2]}		    # limit for graphs
 ISP_ASN=${FILES[-1]}                # folder name for ISP_ASN
 
 # old method, not needed now ->
